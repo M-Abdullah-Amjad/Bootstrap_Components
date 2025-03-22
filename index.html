@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move It - Move With Joy</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            background-color: #f0f0f0; /* Light grey background */
+            text-align: center;
+            padding: 50px 20px;
+            width: 100%;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .hero .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .hero .buttons a {
+            background-color: #007bff; /* Blue button */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .hero .buttons a:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .feature {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .feature h3 {
+            margin-bottom: 10px;
+        }
+        .feature p{
+            font-size: 0.9em;
+        }
+
+        .hero img{
+          margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+  <header style="background-color: #f8f8f8; padding: 15px 20px; font-family: sans-serif; color: #333; display: flex; justify-content: space-between; align-items: center; width: 100%;">
+    <div style="display: flex; align-items: center;">
+        <img src="box-seam.svg" alt="Move It Logo" style="height: 30px; margin-right: 15px;">
+        <span style="font-weight: bold;">Move It</span>
+        <a href="#" style="margin-left: 20px; text-decoration: none; color: #333;">Home</a>
+        <a href="#" style="margin-left: 15px; text-decoration: none; color: #333;">About</a>
+        <div style="position: relative; margin-left: 15px;">
+            <a href="#" style="text-decoration: none; color: #333;">Services</a>
+            <div style="position: absolute; top: 50%; right: -10px; transform: translateY(-50%); border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 7px solid #333;"></div>
+        </div>
+    </div>
+    <div style="display: flex; align-items: center;">
+        <input type="text" placeholder="Postcode" style="padding: 8px; border: 1px solid #ddd; border-radius: 4px; margin-right: 10px;">
+        <button style="background-color: #e0f2f7; color: #00897b; border: 1px solid #00897b; padding: 8px 15px; border-radius: 4px; cursor: pointer;">Check</button>
+    </div>
+</header>
+
+    <div class="hero">
+        <h1>Move It</h1>
+        <p>We are a team to provide exceptional moving services to customers in the 1. Aaster webmoving doesn't have to be stressful or complicated and we are passionate about making the process as smooth and enjoyable as possible.</p>
+        <div class="buttons">
+            <a href="#">Get a Quote</a>
+            <a href="#">Contact</a>
+        </div >
+
+        <img src="moving-van.jpg" alt="" height="100%" width="400px">
+
+        <div class="features-section">
+            <h2>Why Move With Us?</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="icon-container">
+                        <img src="briefcase.svg" alt="Professional Icon">
+                    </div>
+                    <h3>Professional</h3>
+                    <p>Our team of professional movers are trained to prioritize efficiency, organization, and attention to detail. We understand that your possessions are more than just objects - they are a reflection of your life, memories, and experiences. That's why we take extra care to ensure that everything is packed and transported with the utmost care and attention.</p>
+                    <a href="#">Get a quote ></a>
+                </div>
+                <div class="feature">
+                    <div class="icon-container">
+                        <img src="bus-front.svg" alt="Countrywide Icon">
+                    </div>
+                    <h3>Countrywide</h3>
+                    <p>We offer a range of services to suit your individual needs, whether you're moving locally or across the country. Our team can handle everything from packing and loading to unloading and unpacking, so you can focus on settling into your new home. And with our transparent pricing and no hidden fees, you can trust that you're getting a fair and competitive rate for our services.</p>
+                    <a href="#">Get a quote ></a>
+                </div>
+                <div class="feature">
+                    <div class="icon-container">
+                        <img src="chat-square-heart.svg" alt="Personal Touch Icon">
+                    </div>
+                    <h3>Personal Touch</h3>
+                    <p>At our core, we believe that moving should be an exciting and positive experience, not a stressful one. By providing exceptional moving services in the US, we hope to revolutionize the way people think about moving and provide a better, more personalized experience for our customers. Contact us today to learn more about how we can help you with your next move.</p>
+                    <a href="#">Get a quote ></a>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+        .features-section {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f9f9f9; /* Light background */
+        }
+        
+        .features-section h2 {
+            margin-bottom: 30px;
+            color: #333; /* Darker heading text */
+        }
+        
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            width: 300px;
+            margin: 20px;
+            text-align: left;
+        }
+        
+        .icon-container {
+            width: 50px; /* Adjust icon size */
+            height: 50px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #3498db; /* Blue background for icons */
+            border-radius: 50%; /* Make it a circle */
+        }
+        
+        .feature img {
+            width: 30px; /* Adjust icon size within the circle */
+            height: 30px;
+        }
+        
+        .feature h3 {
+            margin-bottom: 10px;
+            color: #3366cc; /* Blue heading */
+        }
+        
+        .feature p {
+            line-height: 1.6;
+            color: #555; /* Gray paragraph text */
+            margin-bottom: 20px;
+        }
+        
+        .feature a {
+            color: #3366cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .feature a:hover {
+            text-decoration: underline;
+        }
+        </style>
+    <img src="family.jpg" alt="" width="auto" height="300px">
+    <footer style="background-color: #f0f0f0; padding: 20px; font-family: sans-serif; color: #333;">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; max-width: 1200px; margin: 0 auto;">
+        
+        <div style="flex: 1; text-align: left;">
+          &copy; 2023 
+        </div>
+        
+        <div style="flex: 3; display: flex; justify-content: space-around; text-align: left;">
+          
+          <div>
+            <h4 style="margin-bottom: 10px;">Section</h4>
+            <ul style="list-style-type: none; padding: 0;">
+              <li><a href="#" style="text-decoration: none; color: #333;">Home</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">Features</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">Pricing</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">FAQs</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">About</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 style="margin-bottom: 10px;">Section</h4>
+            <ul style="list-style-type: none; padding: 0;">
+              <li><a href="#" style="text-decoration: none; color: #333;">Home</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">Features</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">Pricing</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">FAQs</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">About</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 style="margin-bottom: 10px;">Section</h4>
+            <ul style="list-style-type: none; padding: 0;">
+              <li><a href="#" style="text-decoration: none; color: #333;">Home</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">Features</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">Pricing</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">FAQs</a></li>
+              <li><a href="#" style="text-decoration: none; color: #333;">About</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
